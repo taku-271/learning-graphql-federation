@@ -1,8 +1,0 @@
-type Form @key(fields: "id") {
-  id: ID!
-  name: String!
-}
-
-type Query {
-  forms: [Form]!
-}
