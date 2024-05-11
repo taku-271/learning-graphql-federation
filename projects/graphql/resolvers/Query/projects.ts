@@ -1,4 +1,4 @@
-import type { QueryResolvers } from "./../../schema/types.generated";
+import type { QueryResolvers } from "./../../types.generated";
 export const projects: NonNullable<QueryResolvers["projects"]> = async (
   _parent,
   _arg,
